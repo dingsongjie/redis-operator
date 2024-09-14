@@ -1,0 +1,2 @@
+#!/bin/bash
+docker  build  -f ./docker/app/Dockerfile --build-arg TARGETOS=linux --build-arg  TARGETARCH=amd64 --build-arg  VERSION=1.1.1.3 -t swr.cn-east-3.myhuaweicloud.com/dangqu-public/redis-operator:v1.1.1.3 --progress=plain .
